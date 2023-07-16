@@ -18,15 +18,17 @@ body {
 }
 
 /* navbar related styles */
-header  {
-    width: 1920px;
+
+header {
+  /* width: 1920px; */
+  /* width: 100%; */
+  width: 100vw;
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 50px 230px 0px 230px;
-  
 }
 .nav-info > ul {
   display: flex;
