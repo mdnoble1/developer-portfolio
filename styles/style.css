@@ -1,0 +1,8 @@
+/* shared styles */
+* {
+  margin: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
