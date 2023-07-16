@@ -6,3 +6,45 @@ body {
   font-family: "Lato", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #fd6e0a;
+  width: 150px;
+  height: 64px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+/* navbar related styles */
+header  {
+    width: 1920px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 230px 0px 230px;
+  
+}
+.nav-info > ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  list-style: none;
+}
+.nav-info ul a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+.nav-heading {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.text-orange {
+  color: #fd6e0a;
+}
