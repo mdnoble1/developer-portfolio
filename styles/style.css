@@ -28,7 +28,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 230px 0px 230px;
+  padding: 50px 230px 0px 230px;
 }
 .nav-info > ul {
   display: flex;
@@ -49,4 +49,23 @@ nav {
 }
 .text-orange {
   color: #fd6e0a;
+}
+
+/* Responsive media query */
+
+/* For mobile devices */
+
+@media screen and (max-width : 576px) {
+  nav   {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 10px 0px 10px;
+  }
+  .nav-heading  {
+    padding-left: 22px;
+  }
+  .nav-info > ul {
+   gap: 30px;
+   padding: 20px 0 0 24px;
+ }
 }
